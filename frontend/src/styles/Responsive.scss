@@ -1,0 +1,20 @@
+@media screen and (max-width: 500px)
+{
+    .header ul li
+    {
+        display: none;
+    }
+
+    .header button:nth-child(1)
+    {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 228px)
+{
+    .header button:nth-child(2)
+    {
+        display: none;
+    }
+}
